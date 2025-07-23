@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+<form class="my-10 text-center mx-auto">
+    <input id="searchInput" type="text" placeholder="Что вы ищите?" class="w-full h-[60px] pl-4 pr-[115px] rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 max-w-[500px]"/>
+    <button id="btn" class="px-5 py-5 bg-[blue] rounded-[20px] ">click</button>
+    <div id="searchResults" class="max-w-[500px] bg-[white]"></div>
+</form>
+
+<div id="Users" class="flex justify-between"></div>
+<script src="main.js" type="module"></script>
+</body>
+</html>
